@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Rapports de scan (regénérés par la CI)
+gitleaks.json
+checkov.json
+semgrep.json
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
